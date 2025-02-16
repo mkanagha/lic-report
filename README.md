@@ -18,7 +18,7 @@ vds, and the ID provides the operating point of the MOSFET.Sudden changes in pul
 - DC Voltage Source (V1 = 1.8V)
 - AC Signal Source (V2 = SINE(0.9 50m 1k))
   ## Circuit diagram
-![Image](https://github.com/user-attachments/assets/59ceb1e1-c123-48f7-bc9a-d02b40dbb94e)
+![Image](https://github.com/user-attachments/assets/b271e1b6-80c8-4d37-8714-79851d8a12f7)
  
 ## Circuit parameters
 The NMOS operates in the saturation region, with acting as the load. The gain is determined by the transconductance and the drain resistance: Av=-(gm*Rd)
