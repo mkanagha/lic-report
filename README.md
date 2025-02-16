@@ -29,7 +29,7 @@ Power considered for design=100 µW
 ![Image](https://github.com/user-attachments/assets/1fbaa9d8-8ccd-40b1-8fdd-a2b3e9919255)
 # Transient analysis of the MOSFET 
 ![Image](https://github.com/user-attachments/assets/28dce660-56d6-41c0-a38f-b1be3c581b05)
-
+![Image](https://github.com/user-attachments/assets/700cb4bb-e808-41e1-b874-1a22475e1218)
 
 # AC Analysis of the MOSFET
 ![Image](https://github.com/user-attachments/assets/e2100f7b-022a-4c0f-a797-003958320766)
@@ -45,7 +45,7 @@ Vdd=1.8V,Vgs=0.9V,Vb=0.5V,W=2010 nm,L=180 nm
 ![Image](https://github.com/user-attachments/assets/54848e6b-d0fb-4236-a46b-dd0464230cde)
 ![Image](https://github.com/user-attachments/assets/5b6daeab-f9a6-4706-b9ec-a55b6636f601)
 # AC analysis
-![Image](https://github.com/user-attachments/assets/dfedd1d1-74e9-41dc-8721-b47ec52bac1f)
+
 Gain: 22 dB
 
 # Result and Observation From simulation
