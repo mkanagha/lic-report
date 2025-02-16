@@ -39,7 +39,7 @@ Gain:2.2 V/V , 6.8 dB
 Instead of a passive resistor, a PMOS acts as an active load, functioning as a current source. Offers higher gain due to increased output resistance. Av = -(gm*rop)
 Vdd= 1.8 V,Vgs=0.9 V,Vb= 1 V,W=2010 nm,L=180 nm
 # Operating point 
-
+![Image](https://github.com/user-attachments/assets/cf2a7a4f-48d7-4332-bb8f-f77ed6ac5b46)
 # Transient analysis 
 
 # AC analysis
