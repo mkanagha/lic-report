@@ -44,8 +44,8 @@ Vdd= 1.8 V,Vgs=0.9 V,Vb= 1 V,W=2010 nm,L=180 nm
 ![Image](https://github.com/user-attachments/assets/54848e6b-d0fb-4236-a46b-dd0464230cde)
 ![Image](https://github.com/user-attachments/assets/5b6daeab-f9a6-4706-b9ec-a55b6636f601)
 # AC analysis
-![Image](https://github.com/user-attachments/assets/6bd2b66f-5fba-4579-a8a2-d50d34b7a744)
-Gain: 30 dB
+
+Gain: 22 dB
 
 # Result and Observation From simulation
 ## Comparison of two circuits
