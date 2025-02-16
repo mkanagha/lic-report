@@ -44,17 +44,17 @@ Vdd= 1.8 V,Vgs=0.9 V,Vb= 1 V,W=2010 nm,L=180 nm
 ![Image](https://github.com/user-attachments/assets/54848e6b-d0fb-4236-a46b-dd0464230cde)
 ![Image](https://github.com/user-attachments/assets/5b6daeab-f9a6-4706-b9ec-a55b6636f601)
 # AC analysis
-
+![Image](https://github.com/user-attachments/assets/dfedd1d1-74e9-41dc-8721-b47ec52bac1f)
 Gain: 22 dB
 
 # Result and Observation From simulation
 ## Comparison of two circuits
 gain: the PMOS as a active load have more gain than nmos with Rd resistor 
 gain with Rd : 7.83dB
-gain with PMOS as active load: 30 dB
+gain with PMOS as active load: 22 dB
 ## Bandwidth(fH)
-With Rd: ~100 MHz
-With PMOS Load: >150 MHz
+With Rd: ~4.1GHz
+With PMOS Load: >196GHz
 Higher bandwidth in PMOS configuration due to improved output impedance.
 ## Aspect ratio 
 Increasing W/L of NMOS increases transconductance , improving gain and  
@@ -66,12 +66,12 @@ keeping the lenght of the MOSFET same in both the cases.
 # Inference
 From the LTspice simulation and analysis of the CS amplifier with a resistive load versus the CS amplifier with a PMOS current source (active load), we can draw the following conclusions:  
 **Gain Improvement**:  
-The gain of the CS amplifier with a passive resistor as the load is 2.2 V/V (6.8 dB).  
-The gain significantly improves to 32 V/V (30 dB) when using a PMOS current source as an active load.  
+The gain of the CS amplifier with a passive resistor as the load is 7.83  dB
+The gain significantly improves to 22dB when using a PMOS current source as an active load.  
 This improvement is due to the higher output impedance provided by the active PMOS load.  
 **Bandwidth Comparison**:  
-The amplifier with a passive resistor has a bandwidth of approximately 100 MHz.  
-The amplifier with a PMOS current source has a bandwidth greater than 150 MHz.  
+The amplifier with a passive resistor has a bandwidth of approximately 4.1GHz.  
+The amplifier with a PMOS current source has a bandwidth greater than 196GHz.  
 The increased bandwidth in the PMOS load configuration is attributed to the improved output impedance.  
 **Aspect Ratio Effects**:  
 Increasing W/L of NMOS increases transconductance leading to higher gain.  
@@ -80,7 +80,6 @@ The aspect ratio of the NMOS transistor in the resistive load circuit is 0.203 Â
 **Power Consumption Considerations**:  
 The total power dissipation is constrained to 100 ÂµW in both cases.  
 The PMOS active load configuration offers  power efficiency and performance.  
-
 
 This experiment demonstrates the importance of optimizing W/L ratios and understanding the impact of different load configurations in MOSFET amplifier design.
 The PMOS active load configuration achieves higher gain, better voltage swing, and improved bandwidth while maintaining the same power dissipation as the resistive load configuration. This makes it a more efficient choice for amplifier design.
