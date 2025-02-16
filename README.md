@@ -8,7 +8,10 @@ b) **Transient Analysis**: Study the time-domain response of the circuit when su
 c) **AC Analysis**: To verfiy the gain vs frequency graph.  
 ## Absract 
 This report presents an analysis of two MOSFET-based amplifier configurations: a common-source (CS) amplifier with a resistive load and a common-source amplifier with an active PMOS load. The study focuses on comparing gain, bandwidth, and power consumption using LTSpice simulations. The channel length is fixed at 180 nm, and the total power dissipation is constrained to 100 µW with . The results show that replacing with a PMOS current source significantly improves gain and bandwidth, while also affecting power dissipation. The impact of W/L ratio variation on performance is also discussed.
-
+## Theroy
+A common source amplifier is the amplifier configuration that is most frequently used in analog electronics. It provides high voltage enhancement and is typically used in signal amplification applications. The behavior of the amplifier is observed in three domains: DC analysis, distortion, operating point, and transient analysis, which assesses time. Remaining in the saturation region for proper reinforcement (VOV = VGS-VTH). The drain current is specified in
+id = 1/2kn(vov)2
+vds, and the ID provides the operating point of the MOSFET.Sudden changes in pulse input or voltage: how the amplifier responds to time signals such as: Operation is affected by the charge and discharge of capacitors, including coupling and bypass capacitors. 
 ## Components Required
 - NMOS And PMOS Transistor
 - Resistor (R1 = 3kΩ)
@@ -16,10 +19,7 @@ This report presents an analysis of two MOSFET-based amplifier configurations: a
 - AC Signal Source (V2 = SINE(0.9 50m 1k))
   ## Circuit diagram
 ![Image](https://github.com/user-attachments/assets/59ceb1e1-c123-48f7-bc9a-d02b40dbb94e)
-## Theroy
-A common source amplifier is the amplifier configuration that is most frequently used in analog electronics. It provides high voltage enhancement and is typically used in signal amplification applications. The behavior of the amplifier is observed in three domains: DC analysis, distortion, operating point, and transient analysis, which assesses time. Remaining in the saturation region for proper reinforcement (VOV = VGS-VTH). The drain current is specified in
-id = 1/2kn(vov)2
-vds, and the ID provides the operating point of the MOSFET.Sudden changes in pulse input or voltage: how the amplifier responds to time signals such as: Operation is affected by the charge and discharge of capacitors, including coupling and bypass capacitors. 
+ 
 ## Circuit parameters
 The NMOS operates in the saturation region, with acting as the load. The gain is determined by the transconductance and the drain resistance: Av=-(gm*Rd)
 Uses a fixed as the load of Rd=3K ohm.
@@ -35,9 +35,9 @@ Power considered for design=100 µW
 Gain:7.83dB 
 # CS Amplifier with a PMOS Current Source (Active Load)
 ## circuit diagram
-![Image](https://github.com/user-attachments/assets/df817c38-e8c2-4434-98fe-beb878eb66ca)
+![Image](https://github.com/user-attachments/assets/e2c05b4f-7aed-4e8a-8bf0-5534593456f0)
 Instead of a passive resistor, a PMOS acts as an active load, functioning as a current source. Offers higher gain due to increased output resistance. Av = -(gm*rop)
-Vdd= 1.8 V,Vgs=0.9 V,Vb= 1 V,W=2010 nm,L=180 nm
+Vdd=1.8V,Vgs=0.9V,Vb=0.5V,W=2010 nm,L=180 nm
 # Operating point 
 ![Image](https://github.com/user-attachments/assets/cf2a7a4f-48d7-4332-bb8f-f77ed6ac5b46)
 # Transient analysis 
