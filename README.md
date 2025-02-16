@@ -30,8 +30,14 @@ Power considered for design=100 µW
 # Transient analysis of the MOSFET 
 ![Image](https://github.com/user-attachments/assets/662890ad-32f7-4179-8fa9-236a4749c7c7)
 ![Image](https://github.com/user-attachments/assets/0c8aaddf-7480-44c2-ad58-87989c78a9e9)
-
 # AC Analysis of the MOSFET
+![Image](https://github.com/user-attachments/assets/45cf6212-da0d-42a3-bb2f-3edafde4df84)
+Gain:2.2 V/V , 6.8 dB
+# CS Amplifier with a PMOS Current Source (Active Load)
+## circuit diagram
+
+
+
 
 
 
