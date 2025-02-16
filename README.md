@@ -25,6 +25,12 @@ The NMOS operates in the saturation region, with acting as the load. The gain is
 Uses a fixed as the load of Rd=3K ohm.
 Vgs=0.9 V,Vdd=1.8 V,W=1250nm,L=180 nm
 Power considered for design=100 µW
+# operating point of the MOSFET 
+![Image](https://github.com/user-attachments/assets/9330dddb-2248-489d-90f9-68af0b6a4f5f)
+# Transient analysis of the MOSFET 
+
+
+
 
 
 
