@@ -44,6 +44,7 @@ Vdd=1.8V,Vgs=0.9V,Vb=0.5V,W=2010 nm,L=180 nm
 # Transient analysis 
 
 ![Image](https://github.com/user-attachments/assets/5b6daeab-f9a6-4706-b9ec-a55b6636f601)
+
 # AC analysis
 ![Image](https://github.com/user-attachments/assets/350dc2f0-da2b-4d59-86f6-d18e9a928a65)
 Gain: 22 dB
