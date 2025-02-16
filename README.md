@@ -35,7 +35,14 @@ Power considered for design=100 µW
 Gain:2.2 V/V , 6.8 dB
 # CS Amplifier with a PMOS Current Source (Active Load)
 ## circuit diagram
+![Image](https://github.com/user-attachments/assets/df817c38-e8c2-4434-98fe-beb878eb66ca)
+Instead of a passive resistor, a PMOS acts as an active load, functioning as a current source. Offers higher gain due to increased output resistance. Av = -(gm*rop)
+Vdd= 1.8 V,Vgs=0.9 V,Vb= 1 V,W=2010 nm,L=180 nm
+# Operating point 
 
+# Transient analysis 
+
+# AC analysis
 
 
 
