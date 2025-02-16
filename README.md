@@ -26,10 +26,9 @@ Uses a fixed as the load of Rd=3K ohm.
 Vgs=0.9 V,Vdd=1.8 V,W=1250nm,L=180 nm
 Power considered for design=100 µW
 # operating point of the MOSFET 
-![Image](https://github.com/user-attachments/assets/9330dddb-2248-489d-90f9-68af0b6a4f5f)
+![Image](https://github.com/user-attachments/assets/1fbaa9d8-8ccd-40b1-8fdd-a2b3e9919255)
 # Transient analysis of the MOSFET 
-![Image](https://github.com/user-attachments/assets/662890ad-32f7-4179-8fa9-236a4749c7c7)
-![Image](https://github.com/user-attachments/assets/0c8aaddf-7480-44c2-ad58-87989c78a9e9)
+
 # AC Analysis of the MOSFET
 ![Image](https://github.com/user-attachments/assets/e2100f7b-022a-4c0f-a797-003958320766)
 Gain:7.83dB 
