@@ -28,6 +28,8 @@ Power considered for design=100 µW
 # operating point of the MOSFET 
 ![Image](https://github.com/user-attachments/assets/1fbaa9d8-8ccd-40b1-8fdd-a2b3e9919255)
 # Transient analysis of the MOSFET 
+![Image](https://github.com/user-attachments/assets/28dce660-56d6-41c0-a38f-b1be3c581b05)
+
 
 # AC Analysis of the MOSFET
 ![Image](https://github.com/user-attachments/assets/e2100f7b-022a-4c0f-a797-003958320766)
