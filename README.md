@@ -63,7 +63,7 @@ comparison :
 aspect ratio of nmos with load resistor: W/L =0.203u/180n
 aspect ratio of pmos as active load: W/L=2100n/180n
 keeping the lenght of the MOSFET same in both the cases.
-# Conculusion
+# Inference
 From the LTspice simulation and analysis of the CS amplifier with a resistive load versus the CS amplifier with a PMOS current source (active load), we can draw the following conclusions:  
 **Gain Improvement**:  
 The gain of the CS amplifier with a passive resistor as the load is 2.2 V/V (6.8 dB).  
