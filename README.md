@@ -31,8 +31,8 @@ Power considered for design=100 µW
 ![Image](https://github.com/user-attachments/assets/662890ad-32f7-4179-8fa9-236a4749c7c7)
 ![Image](https://github.com/user-attachments/assets/0c8aaddf-7480-44c2-ad58-87989c78a9e9)
 # AC Analysis of the MOSFET
-
-Gain:2.2 V/V or  6.8 dB
+![Image](https://github.com/user-attachments/assets/e2100f7b-022a-4c0f-a797-003958320766)
+Gain:7.83dB 
 # CS Amplifier with a PMOS Current Source (Active Load)
 ## circuit diagram
 ![Image](https://github.com/user-attachments/assets/df817c38-e8c2-4434-98fe-beb878eb66ca)
@@ -45,13 +45,13 @@ Vdd= 1.8 V,Vgs=0.9 V,Vb= 1 V,W=2010 nm,L=180 nm
 ![Image](https://github.com/user-attachments/assets/5b6daeab-f9a6-4706-b9ec-a55b6636f601)
 # AC analysis
 ![Image](https://github.com/user-attachments/assets/6bd2b66f-5fba-4579-a8a2-d50d34b7a744)
-Gain:32 V/V or 30 dB
+Gain: 30 dB
 
 # Result and Observation From simulation
 ## Comparison of two circuits
 gain: the PMOS as a active load have more gain than nmos with Rd resistor 
-gain with Rd : 2.2V/V or 6.8 dB
-gain with PMOS as active load: 32 V/V or 30 dB
+gain with Rd : 7.83dB
+gain with PMOS as active load: 30 dB
 ## Bandwidth(fH)
 With Rd: ~100 MHz
 With PMOS Load: >150 MHz
