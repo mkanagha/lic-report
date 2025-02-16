@@ -42,7 +42,7 @@ Vdd=1.8V,Vgs=0.9V,Vb=0.5V,W=2010 nm,L=180 nm
 # Operating point 
 ![Image](https://github.com/user-attachments/assets/cf2a7a4f-48d7-4332-bb8f-f77ed6ac5b46)
 # Transient analysis 
-![Image](https://github.com/user-attachments/assets/54848e6b-d0fb-4236-a46b-dd0464230cde)
+
 ![Image](https://github.com/user-attachments/assets/5b6daeab-f9a6-4706-b9ec-a55b6636f601)
 # AC analysis
 ![Image](https://github.com/user-attachments/assets/350dc2f0-da2b-4d59-86f6-d18e9a928a65)
