@@ -42,8 +42,7 @@ Vdd=1.8V,Vgs=0.9V,Vb=0.5V,W=2010 nm,L=180 nm
 # Operating point 
 ![Image](https://github.com/user-attachments/assets/cf2a7a4f-48d7-4332-bb8f-f77ed6ac5b46)
 # Transient analysis 
-
-
+![Image](https://github.com/user-attachments/assets/2c3df6f5-9383-4d16-95f6-3e3e815aa4cd)
 ![Image](https://github.com/user-attachments/assets/5f7a83cf-5508-4e84-9257-7a2507eb98ba)
 
 # AC analysis
@@ -52,13 +51,13 @@ Gain: 22 dB
 
 # Result and Observation From simulation
 ## Comparison of two circuits
-gain: the PMOS as a active load have more gain than nmos with Rd resistor 
-gain with Rd : 7.83dB
-gain with PMOS as active load: 22 dB
+gain: the PMOS as a active load have more gain than nmos with Rd resistor  
+gain with Rd : 7.83dB  
+gain with PMOS as active load: 22 dB  
 ## Bandwidth(fH)
-With Rd: ~4.1GHz
-With PMOS Load: >196GHz
-Higher bandwidth in PMOS configuration due to improved output impedance.
+With Rd: ~4.1GHz  
+With PMOS Load: >196GHz  
+Higher bandwidth in PMOS configuration due to improved output impedance.  
 ## Aspect ratio 
 Increasing W/L of NMOS increases transconductance , improving gain and  
 Increasing PMOS W/L increases output resistance, increasing gain but reducing bandwidth due to higher parasitic capacitance.
