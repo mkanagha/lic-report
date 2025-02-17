@@ -43,7 +43,7 @@ Vdd=1.8V,Vgs=0.9V,Vb=0.5V,W=2010 nm,L=180 nm
 ![Image](https://github.com/user-attachments/assets/cf2a7a4f-48d7-4332-bb8f-f77ed6ac5b46)
 # Transient analysis 
 
-![Image](https://github.com/user-attachments/assets/5b6daeab-f9a6-4706-b9ec-a55b6636f601)
+
 ![Image](https://github.com/user-attachments/assets/5f7a83cf-5508-4e84-9257-7a2507eb98ba)
 
 # AC analysis
