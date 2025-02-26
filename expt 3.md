@@ -4,6 +4,8 @@
 Perform DC analysis, transient analysis,frequency respose and extract the required parameters.  
 ## Circuit Diagram
 
+
+
 # Procedure:   
 **Step 1**
 DC analysis: Design RSS and Rd.  
