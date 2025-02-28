@@ -9,6 +9,9 @@ Perform DC analysis, transient analysis,frequency respose and extract the requir
 ![Image](https://github.com/user-attachments/assets/f4708ed9-d9f8-4465-ba04-ee07d79cff9e)  
 
 **When the current source is replaced by NMOSFET**  
+![Image](https://github.com/user-attachments/assets/2a208a29-d99b-42bb-8d9a-e49d194c0abd)
+## Theory
+
 
 
 
