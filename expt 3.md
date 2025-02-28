@@ -3,11 +3,13 @@
 ## Aim : Design and analyse the MOS differential amplifier ckt for the following specifications Vdd=2V, P<=1mW,Vin=1V, Vocm=1.1V,Vp=0.4.  
 Perform DC analysis, transient analysis,frequency respose and extract the required parameters.  
 ## Circuit Diagram
-**With Resistor Rss.**
-![Image](https://github.com/user-attachments/assets/36031ebb-1406-4f04-96cd-192fd445c1f2)
-**With current source**
+**With Resistor Rss.**  
+![Image](https://github.com/user-attachments/assets/36031ebb-1406-4f04-96cd-192fd445c1f2)  
+**With current source**  
+![Image](https://github.com/user-attachments/assets/f4708ed9-d9f8-4465-ba04-ee07d79cff9e)  
 
-**When the current source is replaced by NMOSFET**
+**When the current source is replaced by NMOSFET**  
+
 
 
 
