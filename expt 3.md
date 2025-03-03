@@ -49,6 +49,8 @@ Apply Vin p-p max and verify the o/p, calculate gain if the o/p is linear.
 **Step 3**  
 Ac analysis.    
 Find te 3dB bandwidth.  
+## With Rss resistor
+
 
 
 
