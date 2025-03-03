@@ -63,6 +63,12 @@ Q point of the mosfet:(Vds,Id)@Vgs constant=(0.7V,0.25m)@Vgs=0.6V
 Analysis:
 when ViCm is 1.2V
 Vout,Vp and Id increases respectively.
+Vout=0.75
+Vp=
+Id=
+Vgs 0.675V
+Vds=0.1
+![Image](https://github.com/user-attachments/assets/fb0d9642-a89d-4298-86f0-d8f66ed2e903)
 
 
 
