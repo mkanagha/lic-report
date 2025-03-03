@@ -50,6 +50,10 @@ Apply Vin p-p max and verify the o/p, calculate gain if the o/p is linear.
 Ac analysis.    
 Find te 3dB bandwidth.  
 ## With Rss resistor
+Dc analysis:
+![Image](https://github.com/user-attachments/assets/a76109bf-f904-4dba-aabb-cbbbfa041a37)
+Q point of the mosfet:(Vds,Id)@Vgs constant=(0.7V,0.25m)@Vgs=0.6V
+
 
 
 
