@@ -40,7 +40,7 @@ where:
 DC analysis: Design RSS and Rd.  
 Find the q point of the mosfet.    
 Analysis :  
-1)Increase ViCm to 1V and observe Vocm,Vp. justify the results.  
+1)Increase ViCm to 1.2V and observe Vocm,Vp. justify the results.  
 2) Calulate maximum input swing and output swing.  
 3) Gain equation using small signal model.  
 **Step 2**  
@@ -51,8 +51,20 @@ Ac analysis.
 Find te 3dB bandwidth.  
 ## With Rss resistor
 Dc analysis:
+when ViCm = 1V
+Vocm=1.1V
+Vp=0.4V
+Id=0.25mA
 ![Image](https://github.com/user-attachments/assets/a76109bf-f904-4dba-aabb-cbbbfa041a37)
 Q point of the mosfet:(Vds,Id)@Vgs constant=(0.7V,0.25m)@Vgs=0.6V
+
+![image](https://github.com/user-attachments/assets/ef7ebb49-df71-4195-8d35-65dd2094e162)
+
+Analysis:
+when ViCm is 1.2V
+Vout,Vp and Id increases respectively.
+
+
 
 
 
