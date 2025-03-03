@@ -75,7 +75,18 @@ Input waveform
 Output waveform  
 ![Image](https://github.com/user-attachments/assets/a67b27d1-3268-47b9-b41b-7c151c0f8236)
 Both Input and Output Waveform together  
-
+![Image](https://github.com/user-attachments/assets/ab0162d8-d47f-48db-b2b9-0b197cabe643)
+Thus for the given values in question the MOSFET amplifies.
+## Calulation of gain(theortical)
+Vin (Input Peak-to-Peak):  
+Maximum voltage ≈ 1.04V
+Minimum voltage ≈ 0.95V  
+Vin P-P = 1.04V - 0.95V = 0.09V  
+Vout (Output Peak-to-Peak)  
+Maximum voltage ≈ 1.53V  
+Minimum voltage ≈ 0.654V  
+Vout P-P = 1.53V - 0.654V = 0.876V  
+The voltage gain(Av)=
 
 
 
