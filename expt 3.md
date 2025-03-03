@@ -71,6 +71,9 @@ Vgs 0.675V
 ![Image](https://github.com/user-attachments/assets/fb0d9642-a89d-4298-86f0-d8f66ed2e903)
 # Transient analysis
 Input waveform  
+![Image](https://github.com/user-attachments/assets/88e2c471-56c4-4dae-a794-b94d2a63d52b)  
+Output waveform
+
 
 
 
