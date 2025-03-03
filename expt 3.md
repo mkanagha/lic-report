@@ -60,15 +60,19 @@ Q point of the mosfet:(Vds,Id)@Vgs constant=(0.7V,0.25m)@Vgs=0.6V
 
 ![image](https://github.com/user-attachments/assets/ef7ebb49-df71-4195-8d35-65dd2094e162)
 
-Analysis:
-when ViCm is 1.2V
+## Analysis:
+**a)** when ViCm is 1.2V
 Vout,Vp and Id increases respectively.
-Vout=0.75
-Vp=
-Id=
+Vout=0.75V
+Vp=0.54V
+Id=0.35mA
 Vgs 0.675V
-Vds=0.1
+
 ![Image](https://github.com/user-attachments/assets/fb0d9642-a89d-4298-86f0-d8f66ed2e903)
+# Transient analysis
+Input waveform  
+
+
 
 
 
