@@ -58,7 +58,7 @@ Id=0.25mA
 ![Image](https://github.com/user-attachments/assets/a76109bf-f904-4dba-aabb-cbbbfa041a37)
 Q point of the mosfet:(Vds,Id)@Vgs constant=(0.7V,0.25m)@Vgs=0.6V
 
-![image](https://github.com/user-attachments/assets/ef7ebb49-df71-4195-8d35-65dd2094e162)
+![image](https://thub.com/user-attachments/assets/ef7ebb49-df71-4195-8d35-65dd2094e162)
 
 ## Analysis:
 **a)** when ViCm is 1.2V
@@ -86,7 +86,11 @@ Vout (Output Peak-to-Peak)
 Maximum voltage ≈ 1.53V  
 Minimum voltage ≈ 0.654V  
 Vout P-P = 1.53V - 0.654V = 0.876V  
-The voltage gain(Av)=
+The voltage gain(Av)=Vout(p-p)/Vin(p-p)
+Therefore ,the gain =9.73 V/V  
+Gain in dB=20log( 9.73)
+Gain in dB=19.78V/V
+
 
 
 
