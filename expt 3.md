@@ -20,21 +20,6 @@ In an ideal differential amplifier, only the differential input signal affects t
 The circuit can be analyzed using small-signal models to determine its gain, input impedance, and output characteristics. The gain of a differential amplifier is determined by the transconductance of the transistors and the load resistance used in the circuit. For improved performance, active loads such as current mirrors are often used instead of resistors.
 
 Differential amplifiers are fundamental components in modern electronic systems, forming the input stage of most operational amplifiers and other analog signal-processing circuits.
-
-## Formula 
-Vout(p−p)=VDD−(Vov1+Vov3)
-where:
-
-
-​
-
-​
-
-
-
-
-
-
 # Procedure:   
 **Step 1**
 DC analysis: Design RSS and Rd.  
@@ -90,6 +75,8 @@ The voltage gain(Av)=Vout(p-p)/Vin(p-p)
 Therefore ,the gain =9.73 V/V  
 Gain in dB=20log( 9.73)
 Gain in dB=19.78V/V
+## Practical gain using simulation
+Gain=19.57V/V.  
 
 
 
