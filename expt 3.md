@@ -117,8 +117,9 @@ As shown in fig  c)
 Input wave
 ![Image](https://github.com/user-attachments/assets/37925b8a-49c1-4ce8-b0f2-6540ce24bbda)  
 Output wave  
+![Image](https://github.com/user-attachments/assets/5a35f557-628d-4515-a6a1-d21684d6e9ce)
+Both input and output  
 
-Both input and output
 
 
 
