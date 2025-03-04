@@ -96,7 +96,9 @@ Gain of this from simulation is
 ## Now the Rss is replaced current source which is called current mirror.
 As shown in the fig  b)
 **DC analysis**
-
+![Image](https://github.com/user-attachments/assets/816bcd73-d54e-4065-aebb-1e35f098e5e0)  
+Same as previous.
+**Transient Analysis**  
 
 
 
