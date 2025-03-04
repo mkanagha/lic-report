@@ -115,8 +115,8 @@ As shown in fig  c)
 ![Image](https://github.com/user-attachments/assets/ab66536e-2c37-4a67-9165-16c27e425c8a)
 **Transient Analysis**
 Input wave
-
-Output wave
+![Image](https://github.com/user-attachments/assets/37925b8a-49c1-4ce8-b0f2-6540ce24bbda)  
+Output wave  
 
 Both input and output
 
