@@ -107,12 +107,11 @@ both input and output wave
 ![Image](https://github.com/user-attachments/assets/749b7102-763e-428d-b648-97a903836f25)
 The MOSFET is amplifing at this point.
 **Ac analysis**
-Gain will be same 
-
-
-
-
-
+Gain will be same   
+![Image](https://github.com/user-attachments/assets/2a1b7db8-cd5a-4ed1-90ae-e67eadf59151)  
+## Now the current mirror is replaced by MOSFET with same current flowing through it.
+As shown in fig  c)
+**DC analysis**
 
 
 
