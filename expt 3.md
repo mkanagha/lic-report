@@ -104,6 +104,10 @@ Input wave
 Output wave  
 ![Image](https://github.com/user-attachments/assets/db6eff39-b593-48ef-9578-05ac28579cbc)
 both input and output wave  
+![Image](https://github.com/user-attachments/assets/749b7102-763e-428d-b648-97a903836f25)
+The MOSFET is amplifing at this point.
+**Ac analysis**
+Gain will be same 
 
 
 
