@@ -119,6 +119,8 @@ Input wave
 Output wave  
 ![Image](https://github.com/user-attachments/assets/5a35f557-628d-4515-a6a1-d21684d6e9ce)
 Both input and output  
+![Image](https://github.com/user-attachments/assets/6124d247-24ff-4a8a-873d-6e06af90e7aa)
+**Ac analysis**
 
 
 
