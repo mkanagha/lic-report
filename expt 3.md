@@ -28,6 +28,7 @@ Analysis :
 1)Increase ViCm to 1.2V and observe Vocm,Vp. justify the results.  
 2) Calulate maximum input swing and output swing.  
 3) Gain equation using small signal model.  
+
 **Step 2**  
 Transient analysis.   
 Apply Vin p-p max and verify the o/p, calculate gain if the o/p is linear.  
@@ -39,7 +40,8 @@ Dc analysis:
 when ViCm = 1V
 Vocm=1.1V
 Vp=0.4V
-Id=0.25mA
+Id=0.25mA  
+Aspect Ratio=W/L=19.363/180n  
 ![Image](https://github.com/user-attachments/assets/a76109bf-f904-4dba-aabb-cbbbfa041a37)
 Q point of the mosfet:(Vds,Id)@Vgs constant=(0.7V,0.25m)@Vgs=0.6V
 
@@ -75,8 +77,15 @@ The voltage gain(Av)=Vout(p-p)/Vin(p-p)
 Therefore ,the gain =9.73 V/V  
 Gain in dB=20log( 9.73)
 Gain in dB=19.78V/V
-## Practical gain using simulation
-Gain=19.57V/V.  
+## Practical gain using simulation.  
+Gain=19.57V/V.    
+![Image](https://github.com/user-attachments/assets/0303ea29-ddc7-449e-b934-57f83dea5b19)  
+There is a deviation in pratical and theortical gain, due to formation of internal parastic capacitance and resistance induced due to it.
+
+## When the amplitude of the input wave is changed.
+The gain remains same.
+The amplitude is increased the sine wave is clipped off.  
+
 
 
 
