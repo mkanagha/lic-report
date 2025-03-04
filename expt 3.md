@@ -112,6 +112,14 @@ Gain will be same
 ## Now the current mirror is replaced by MOSFET with same current flowing through it.
 As shown in fig  c)
 **DC analysis**
+![Image](https://github.com/user-attachments/assets/ab66536e-2c37-4a67-9165-16c27e425c8a)
+**Transient Analysis**
+Input wave
+
+Output wave
+
+Both input and output
+
 
 
 
