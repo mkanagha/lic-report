@@ -88,6 +88,14 @@ The amplitude is increased the sine wave is clipped off.
 
 ![Image](https://github.com/user-attachments/assets/02cd7552-4270-4c68-8a50-7fd78ab6431e)
 Both input and output graph.  
+![Image](https://github.com/user-attachments/assets/ae9bd35f-ea0d-4d8d-bf8d-d3c62183ddbf)
+
+Since the input same for both MOSFET , the graph will be also same(Transient analysis)  
+Gain of this from simulation is  
+![image](https://github.com/user-attachments/assets/e76d9c25-7738-40af-aa46-84f161e7f6bb)
+## Now the Rss is replaced current source which is called current mirror.
+As shown in the fig  b)
+**DC analysis**
 
 
 
