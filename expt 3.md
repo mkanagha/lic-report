@@ -102,8 +102,7 @@ Same as previous.
 Input wave
 ![Image](https://github.com/user-attachments/assets/a733962e-ccd1-42e5-b77e-47fb5c4d7c23)
 Output wave  
-
-
+![Image](https://github.com/user-attachments/assets/db6eff39-b593-48ef-9578-05ac28579cbc)
 both input and output wave  
 
 
