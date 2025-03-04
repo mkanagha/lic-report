@@ -86,6 +86,9 @@ There is a deviation in pratical and theortical gain, due to formation of intern
 The gain remains same.
 The amplitude is increased the sine wave is clipped off.  
 
+![Image](https://github.com/user-attachments/assets/02cd7552-4270-4c68-8a50-7fd78ab6431e)
+Both input and output graph.  
+
 
 
 
