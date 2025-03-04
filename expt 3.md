@@ -99,7 +99,12 @@ As shown in the fig  b)
 ![Image](https://github.com/user-attachments/assets/816bcd73-d54e-4065-aebb-1e35f098e5e0)  
 Same as previous.
 **Transient Analysis**  
+Input wave
+![Image](https://github.com/user-attachments/assets/a733962e-ccd1-42e5-b77e-47fb5c4d7c23)
+Output wave  
 
+
+both input and output wave  
 
 
 
