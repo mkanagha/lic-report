@@ -20,6 +20,25 @@ In an ideal differential amplifier, only the differential input signal affects t
 The circuit can be analyzed using small-signal models to determine its gain, input impedance, and output characteristics. The gain of a differential amplifier is determined by the transconductance of the transistors and the load resistance used in the circuit. For improved performance, active loads such as current mirrors are often used instead of resistors.
 
 Differential amplifiers are fundamental components in modern electronic systems, forming the input stage of most operational amplifiers and other analog signal-processing circuits.
+Circuit Description The MOSFET differential amplifier consists of:
+
+Two identical NMOS transistors operating in the saturation region. A current source that provides a constant biasing current (Id). Load resistors (Rd) or active loads (current source/NMOS current mirror). The output signals (Vout1 and Vout2) are taken from the drain terminals of the MOSFETs.
+
+**Circuit Configurations Explored:**
+
+Circuit 1: Uses a resistor Rd as the load.
+Circuit 2: Replaces Rd with a current source, ensuring more stable operation.
+Circuit 3: Uses an NMOS transistor as a current source, improving integration in IC design.\
+
+Operating Principle
+A. Biasing and Q-Point Setting
+The Q-point (operating point) is set to ensure the transistors work in saturation mode, where: [ ID =(1/2) un Cox (W/{L) (VGS - Vth)^2 ] By adjusting W/L ratio and Rd, we achieve the desired current (Id1 = Id2 = 0.25mA) and voltage (Vds = 0.7V).\
+B. Small-Signal Analysis and Gain Calculation The small-signal voltage gain is given by:
+Av = -gmRD
+where 𝑔m (transconductance) is:
+gm = 2ID/(Vgs - Vth)
+For Circuit 1 (resistor load), gain depends on Rd.
+For Circuit 2 & 3 (current source/NMOS mirror), the gain is higher because the effective resistance is larger than a passive resistor.
 # Procedure:   
 **Step 1**
 DC analysis: Design RSS and Rd.  
@@ -126,27 +145,26 @@ Both input and output
 From the analysis of the MOS differential amplifier under three different configurations—using a resistor (Rss), a current mirror, and an NMOSFET as a current source—the following conclusions can be drawn:
 
 **DC Analysis**:
-The quiescent operating points (Q-points) of the MOSFETs were successfully established, ensuring stable biasing conditions in all configurations.
-When ViCm was increased from 1V to 1.2V, the output voltage (Vout), peak voltage (Vp), and drain current (Id) increased, confirming the expected behavior of the amplifier.
-The current mirror and NMOS current source provided better bias stability than the simple resistor (Rss), reducing variations in drain current and improving overall circuit consistency.
-**Transient Analysis:**
-The MOSFET successfully amplified the input sine wave in all configurations, confirming proper operation.
-Increasing the input amplitude led to output waveform clipping, indicating the limits of the amplifier’s linear operation.
-The symmetry of the waveform in transient plots suggests that all configurations maintained balanced differential operation.
-AC Analysis & Gain Comparison:
-
-The gain remained the same across all three configurations within expected tolerances.
-The theoretical gain (9.73 V/V or 19.78 dB) closely matched the practical gain (19.57 dB) observed in simulations, with only slight deviations due to parasitic effects.
-While the gain did not change across configurations, the stability of the gain improved when using a current mirror and NMOS current source, as they provided a more stable tail current and reduced common-mode variations.
-Bandwidth & Linearity:
+1)The quiescent operating points (Q-points) of the MOSFETs were successfully established, ensuring stable biasing conditions in all configurations.  
+2)When ViCm was increased from 1V to 1.2V, the output voltage (Vout), peak voltage (Vp), and drain current (Id) increased, confirming the expected behavior of the amplifier.  
+3)The current mirror and NMOS current source provided better bias stability than the simple resistor (Rss), reducing variations in drain current and improving overall circuit consistency.  
+**Transient Analysis:**  
+1)The MOSFET successfully amplified the input sine wave in all configurations, confirming proper operation.  
+2)Increasing the input amplitude led to output waveform clipping, indicating the limits of the amplifier’s linear operation.
+3)The symmetry of the waveform in transient plots suggests that all configurations maintained balanced differential operation.
+**AC Analysis & Gain Comparison:**
+1)The gain remained the same across all three configurations within expected tolerances.
+2)The theoretical gain (9.73 V/V or 19.78 dB) closely matched the practical gain (19.57 dB) observed in simulations, with only slight deviations due to parasitic effects.
+3)While the gain did not change across configurations, the stability of the gain improved when using a current mirror and NMOS current source, as they provided a more stable tail current and reduced common-mode variations.
+**Bandwidth & Linearity:**
 
 The 3dB bandwidth analysis confirmed effective amplifier operation across a specified frequency range.
 The gain remained consistent across different input amplitudes until reaching the clipping threshold, highlighting the need to keep input signals within an appropriate range.
-**Conclusion:**
-The MOS differential amplifier functioned effectively across all configurations, demonstrating stable DC biasing, transient response, and AC performance.
-While the gain remained the same for all three circuits, bias stability improved when using a current mirror or NMOS current source instead of Rss.
-The NMOS current source provided the most stable biasing, ensuring consistent operation and minimizing variations due to external factors.
-Parasitic effects and waveform clipping were observed, reinforcing the importance of careful design in practical implementations.
+## Conclusion:
+1)The MOS differential amplifier functioned effectively across all configurations, demonstrating stable DC biasing, transient response, and AC performance.
+2)While the gain remained the same for all three circuits, bias stability improved when using a current mirror or NMOS current source instead of Rss.
+3)The NMOS current source provided the most stable biasing, ensuring consistent operation and minimizing variations due to external factors.
+4)Parasitic effects and waveform clipping were observed, reinforcing the importance of careful design in practical implementations.
 Overall, the experiment validated the theoretical principles of differential amplification, confirming that different biasing techniques impact circuit stability rather than gain.
 
 
