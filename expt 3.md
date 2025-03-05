@@ -151,21 +151,20 @@ From the analysis of the MOS differential amplifier under three different config
 **Transient Analysis:**  
 1)The MOSFET successfully amplified the input sine wave in all configurations, confirming proper operation.  
 2)Increasing the input amplitude led to output waveform clipping, indicating the limits of the amplifier’s linear operation.
-3)The symmetry of the waveform in transient plots suggests that all configurations maintained balanced differential operation.
-**AC Analysis & Gain Comparison:**
-1)The gain remained the same across all three configurations within expected tolerances.
-2)The theoretical gain (9.73 V/V or 19.78 dB) closely matched the practical gain (19.57 dB) observed in simulations, with only slight deviations due to parasitic effects.
-3)While the gain did not change across configurations, the stability of the gain improved when using a current mirror and NMOS current source, as they provided a more stable tail current and reduced common-mode variations.
-**Bandwidth & Linearity:**
-
-The 3dB bandwidth analysis confirmed effective amplifier operation across a specified frequency range.
-The gain remained consistent across different input amplitudes until reaching the clipping threshold, highlighting the need to keep input signals within an appropriate range.
-## Conclusion:
-1)The MOS differential amplifier functioned effectively across all configurations, demonstrating stable DC biasing, transient response, and AC performance.
-2)While the gain remained the same for all three circuits, bias stability improved when using a current mirror or NMOS current source instead of Rss.
-3)The NMOS current source provided the most stable biasing, ensuring consistent operation and minimizing variations due to external factors.
-4)Parasitic effects and waveform clipping were observed, reinforcing the importance of careful design in practical implementations.
-Overall, the experiment validated the theoretical principles of differential amplification, confirming that different biasing techniques impact circuit stability rather than gain.
+3)The symmetry of the waveform in transient plots suggests that all configurations maintained balanced differential operation.  
+**AC Analysis & Gain Comparison:**  
+1)The gain remained the same across all three configurations within expected tolerances.  
+2)The theoretical gain (9.73 V/V or 19.78 dB) closely matched the practical gain (19.57 dB) observed in simulations, with only slight deviations due to parasitic effects.  
+3)While the gain did not change across configurations, the stability of the gain improved when using a current mirror and NMOS current source, as they provided a more stable tail current and reduced common-mode variations.  
+**Bandwidth & Linearity:**  
+The 3dB bandwidth analysis confirmed effective amplifier operation across a specified frequency range.  
+The gain remained consistent across different input amplitudes until reaching the clipping threshold, highlighting the need to keep input signals within an appropriate range.   
+## Conclusion:  
+1)The MOS differential amplifier functioned effectively across all configurations, demonstrating stable DC biasing, transient response, and AC performance.  
+2)While the gain remained the same for all three circuits, bias stability improved when using a current mirror or NMOS current source instead of Rss.  
+3)The NMOS current source provided the most stable biasing, ensuring consistent operation and minimizing variations due to external factors.  
+4)Parasitic effects and waveform clipping were observed, reinforcing the importance of careful design in practical implementations.  
+Overall, the experiment validated the theoretical principles of differential amplification, confirming that different biasing techniques impact circuit stability rather than gain.  
 
 
 
