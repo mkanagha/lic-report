@@ -46,7 +46,13 @@ perform DC analysis, Transient analysis and AC analysis.
 ___  
 ## Calulation :
 ![Image](https://github.com/user-attachments/assets/b2b17a7b-181b-4ccc-8997-b7a1b983458d)  
-## Design for current mirror ratio 1:1 
+## Design for current mirror ratio 1:1, when L=180nm
+I_REF=I_X  
+ (W/L) Of mosfet 1: 13.5u/180n  
+ (W/L) Of mosfet 2:  13.5u/180n  
+ (W/L) Of mosfet 3:  13.5u/180n
+
+![Image](https://github.com/user-attachments/assets/dbb4ba08-e501-4185-8c41-4e788c5bb515)
 
 
 
