@@ -5,7 +5,14 @@ Design and analyse current mirror circuit as a  active load in amplifier circuit
 **Part A**
 
 
+![Image](https://github.com/user-attachments/assets/eae4e924-2b8e-48bd-8642-c0476619949e)
+
+
+
 **Part B** 
+![Image](https://github.com/user-attachments/assets/1a3cc7d7-b1b4-4551-93a4-d08dda42fc8b)
+
+
 
 ## Theory:
 A current mirror is a circuit that copies a reference current (I_REF) to one or more output branches while maintaining a constant current regardless of load variations. The circuit is widely used in analog IC design, particularly in biasing circuits, active loads, and current sources.  
@@ -36,6 +43,9 @@ ___
 **Part B**  
 Design the differential amplifer using the same desgin specification as experiment 3.  
 perform DC analysis, Transient analysis and AC analysis.  
+___  
+## Calulation :
+
 
 
   
