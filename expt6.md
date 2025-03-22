@@ -45,6 +45,9 @@ Design the differential amplifer using the same desgin specification as experime
 perform DC analysis, Transient analysis and AC analysis.  
 ___  
 ## Calulation :
+![Image](https://github.com/user-attachments/assets/b2b17a7b-181b-4ccc-8997-b7a1b983458d)  
+## Design for current mirror ratio 1:1 
+
 
 
 
