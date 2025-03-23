@@ -91,6 +91,20 @@ Vth=−0.4V
 In Saturation.  
 All three MOSFET are in saturation. 
 **Transient Analysis**
+Vin  
+![Image](https://github.com/user-attachments/assets/85aeb216-5b66-4c4e-97b2-9b02e661ef2f)  
+Vout  
+
+![Image](https://github.com/user-attachments/assets/f0440ce6-d395-4b34-b2f3-1805fc6b01d9)  
+Vout max swing(peak to peak) = 1.68V- 0.971V= 0.709V 
+If considering max positive swing from DC operating point (1.54V), it is 1.68V - 1.54V = 0.14V.  
+If considering max negative swing from DC operating point, it is 1.54V - 0.91V = 0.63V.  
+**AC analysis**  
+![image](https://github.com/user-attachments/assets/bffde00e-e5e2-4139-8614-7ab03d8d1889)
+
+The Gain of this is 16db.  
+## Inference  
+
 
 
 
