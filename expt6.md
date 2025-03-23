@@ -190,6 +190,8 @@ The gain is 28dB.
 | 1:4                | 0.111      | 0.4444   | 0.6603     | 1.24656  | 1.2574   | 30        |
 | 2:1                | 0.37       | 0.185    | 0.6603     | 1.22783  | 1.23002  | 28        |
 
+## Analysis of copying / mirroring of current when current mirror ratio is varied
+## Differential amplifier using Current mirror
 
 
 
