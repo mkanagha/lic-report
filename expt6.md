@@ -102,7 +102,90 @@ If considering max negative swing from DC operating point, it is 1.54V - 0.91V =
 **AC analysis**  
 ![image](https://github.com/user-attachments/assets/bffde00e-e5e2-4139-8614-7ab03d8d1889)
 
-The Gain of this is 16db.  
+The Gain of this is 16dB.  
+**For 1:2 ratio current mirror**
+
+let I_REF=0.185mA and I_X=2*I_REF=0.37mA since the I_TOTAL is remines same and hence P_TOTAL remains same.  
+Here ,The aspect ratio of MOSFET M1 is twice of M2.
+(W/L) of MOSFET 1= 200u/180n.  
+(W/L) of MOSFET 2= 100u/180n.  
+(W/L) of MOSFET 3= 8.115u/180n. 
+**DC ANALYSIS**  
+![image](https://github.com/user-attachments/assets/65fc03a8-78f0-458b-bc6c-879e4d522570)  
+Current through M1 and M3 is same (0.37mA)  
+vout and vx has been incresed from the previous case.  
+**Transient Analysis**  
+vin  
+![image](https://github.com/user-attachments/assets/66b2d1d2-3827-456e-b3b8-4b49d0440e7d)
+vout  
+![image](https://github.com/user-attachments/assets/cb9f4dc7-4ff1-4358-a861-98365717a074)  
+Max o/p swing(peak to peak) = 1.766-1.691=0.075V   
+**AC analysis**  
+![image](https://github.com/user-attachments/assets/37ca2b25-4a47-459c-8bc8-872e492c17c2)
+The gain is 15dB.
+**For 1:3 ratio current Mirror**   
+let I_REF=0.138mA and I_X=3*I_REF =0.4166mA
+
+since the I_TOTAL is remines same P_TOTAL also remains same.
+Here ,The aspect ratio of MOSFET M1 is thrice of M3.
+(W/L) of MOSFET 1= 300u/180n.  
+(W/L) of MOSFET 2= 100u/180n.  
+(W/L) of MOSFET 3= 13.36u/180n. 
+**DC ANANLYSIS**  
+![image](https://github.com/user-attachments/assets/7734a9ba-00c0-4322-acea-6a85477c0137)  
+**TRANSIENT ANALYSIS**  
+Vin
+![image](https://github.com/user-attachments/assets/f976a74a-e31a-4afd-b4b8-6e35bed8a131)  
+Vout
+![image](https://github.com/user-attachments/assets/d557cce1-0674-481e-abb3-cc45dbae897a)
+Max o/p swing(peak to peak) = 1.732-0.325 =1.407V 
+**AC analysis**  
+![image](https://github.com/user-attachments/assets/96f2b9fe-e7bb-4a60-a576-da4a6ac1540a)
+The gain is increased to 28dB.  
+**For 1:4 ratio current Mirror**   
+let I_REF=0.111mA and I_X=4*I_REF =0.4444mA
+
+since the I_TOTAL is remines same P_TOTAL also remains same.
+Here ,The aspect ratio of MOSFET M1 is thrice of M3.
+(W/L) of MOSFET 1= 400/180n.  
+(W/L) of MOSFET 2= 100u/180n.  
+(W/L) of MOSFET 3= 14.14u/180n. 
+
+**DC Analysis**
+![image](https://github.com/user-attachments/assets/460138db-dc77-4a2e-a416-26891e9b7df0)
+**Transient Analysis**  
+Vin
+![image](https://github.com/user-attachments/assets/f70a534f-a2d5-4b98-842c-1e4b50f4911a)
+Vout  
+![image](https://github.com/user-attachments/assets/4b3e687f-39e7-4df2-be3d-d88d84d39c19)
+Max o/p swing(peak to peak) = 1.733-0.332=1.401 V  
+**AC analysis**  
+![image](https://github.com/user-attachments/assets/f231c4d7-2a08-4e90-88fb-d90eaffbb555)  
+The gain is 30dB.  
+**For 2:1 ratio current Mirror**   
+let I_REF=0.37mA and I_X=I_REF/2=0.185mA  
+
+since the I_TOTAL is remines same P_TOTAL also remains same.  
+Here ,The aspect ratio of MOSFET M1 is thrice of M3.  
+(W/L) of MOSFET 1= 200/180n.  
+(W/L) of MOSFET 2= 100u/180n.  
+(W/L) of MOSFET 3= 5.75u/180n. 
+
+**DC Analysis**  
+![image](https://github.com/user-attachments/assets/fba0d105-9cca-4621-9ff4-b8b954fbeb06)  
+**Transient Analysis**  
+Vin  
+![image](https://github.com/user-attachments/assets/341cf66f-a3b7-4125-a36c-63c9ba7999df)  
+Vout  
+![image](https://github.com/user-attachments/assets/dbcc82de-4570-4b78-ae37-c8b502cc1521)
+**AC Analysis**  
+![image](https://github.com/user-attachments/assets/90c12279-5470-461f-a83d-99add2a99be2)
+The gain is 28dB.  
+
+
+
+
+
 ## Inference  
 
 
