@@ -51,14 +51,46 @@ I_REF=I_X
  (W/L) Of mosfet 1(PMOS): 12.6u/180n  
  (W/L) Of mosfet 2(PMOS):  12.6u/180n    
  (W/L) Of mosfet 3(NMOS ):  6.3u/180n
- Vin = 0.6603
- 
-
+ Vin = 0.6603V  
+ ![Image](https://github.com/user-attachments/assets/9435623b-2b56-4cbd-93c4-2f43017efc0d)
 
 Since both the mosfet have same current flowing through it. The Vgs, Vds values are as shown below.  
+![Image](https://github.com/user-attachments/assets/ca89ef2c-bed2-401f-85d9-b6b101bfc1c4)
+
  
 Saturation Condition for MOSFETs:
 For an NMOS transistor to be in saturation:
+VDS>VGS−Vth
+​VDS=1.54
+VGS=0.66
+Vth=0.4V  
+therefore MOSFET is in saturation.  
+For PMOS (M1 & M2):
+
+Saturation Condition:
+
+∣𝑉𝑆𝐷∣>∣𝑉𝑆𝐺∣−∣𝑉𝑡ℎ∣
+M1:
+𝑉𝑆𝐷=1.26𝑉,
+𝑉𝑆𝐺=0.53𝑉,
+𝑉𝑡ℎ=−0.4𝑉
+VSD=1.26V,
+VSG=0.53V,
+Vth=−0.4V
+1.26𝑉>(0.53𝑉−(−0.4𝑉))=0.93𝑉
+In Saturation.
+
+M2:
+𝑉𝑆𝐷=1.79𝑉,
+𝑉𝑆𝐺=0𝑉,
+𝑉𝑡ℎ=−0.4𝑉
+VSD=1.79V,
+VSG=0V,
+Vth=−0.4V
+1.79𝑉>(0𝑉−(−0.4𝑉))=0.4𝑉
+In Saturation.  
+All three MOSFET are in saturation. 
+**Transient Analysis**
 
 
 
