@@ -189,14 +189,42 @@ The gain is 28dB.
 | 1:3                | 0.138      | 0.4166   | 0.6603     | 1.2151   | 1.24607  | 28        |
 | 1:4                | 0.111      | 0.4444   | 0.6603     | 1.24656  | 1.2574   | 30        |
 | 2:1                | 0.37       | 0.185    | 0.6603     | 1.22783  | 1.23002  | 28        |
+# Inference  
+The output resistance of the current mirror plays a key role in determining the amplifier gain.
+As the mirror ratio increases, the output impedance increases, leading to higher gain.
+However, after a certain ratio (1:4 in this case), the gain does not improve significantly because:
+1)The increment in output resistance saturates.
+2)Parasitic capacitances start to limit the gain.
+3)The transconductance (g_m) of the MOSFETs does not change significantly, meaning further increasing the ratio does not result in proportional gain improvement.
 
-## Analysis of copying / mirroring of current when current mirror ratio is varied
-## Differential amplifier using Current mirror
 
 
+## Differential amplifier using Current mirror  
+# Design the differential amplifier using the same design specification as experiment 3(differential amplifier). Perform DC, Transient, AC analysis for this.
+For this circuit biased voltage is replaced by current mirror circuit, with Vdd = 2.2V
+the current through the circuite should be 0.5mA, hence Iss should be of 1mA.
+But as we are supplying Iss through current mirror circuit, the I_REF which is given to MOSFET 5 in the circuit has 0.5mA.
+![image](https://github.com/user-attachments/assets/4d19a9bd-0118-4315-b691-a2a8a2c6a467)
+
+**DC Analysis**  
+![image](https://github.com/user-attachments/assets/14767744-95cd-48bf-8953-0763fbf3ee87)  
+
+**Transient Analysis**  
+Vin
+![image](https://github.com/user-attachments/assets/e075b107-aa7b-4345-af87-8c707226d6f2)  
+Vout  
+![image](https://github.com/user-attachments/assets/92fd93d0-d5c9-4e6c-88bf-8dfb7120a967)
+**AC Analysis**  
+![image](https://github.com/user-attachments/assets/ddb38b73-f4a7-4003-b4c0-d8b8bbeff93e)
+The gain of the ckt is 30dB.  
 
 ## Inference  
-
+The circuit achieves the expected biasing conditions, ensuring proper operation.
+The tail current (Iss) is maintained at 1mA, meaning each branch of the differential pair gets 0.5mA.
+The MOSFETs operate in the saturation region, which is required for proper amplification.
+The frequency response shows a clear amplification of the input signal.
+The gain of the amplifier is 30 dB, which is expected for a properly designed differential amplifier.
+The circuit maintains a stable gain within a certain bandwidth, making it suitable for low- to mid-frequency applications.
 
 
 
