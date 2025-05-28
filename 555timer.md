@@ -42,7 +42,31 @@ Design Equation:
 T=1.1×R×C
 Adjustability: Pulse width is varied by changing the external R or C.
 ## simulattion results:
-![image](https://github.com/user-attachments/assets/c809e1dc-4dc0-4a67-aee7-5ff40c20b56a)
+   INPUT WAVE @ trigger pin  
+![image](https://github.com/user-attachments/assets/c809e1dc-4dc0-4a67-aee7-5ff40c20b56a)  
+output wave @ output pin and @ capcitor pin between threshold and discharge    
+![image](https://github.com/user-attachments/assets/796c481a-4eae-4086-aa29-6c6d9d6d34ec)    
+## Astable multivibrator and monostable multivibrator using 555 timer IC  
+# Circuit Diagram  
+Internal ckt  
+![image](https://github.com/user-attachments/assets/5b5b7ea8-ee50-4074-a082-98a4dab85cab)  
+# Procedure  
+Build the circuit as per the Circuit diagram.  
+Calculate the resistor R and capacitor C for Astable multivibrator Differentiator, clipper and Monostable multivibrator.  
+Analyze the capacitor charging and discharging Voltage per time.  
+Analyze the ton period when input is triggered.  
+# LT spice ckt diagram  
+![image](https://github.com/user-attachments/assets/dc901f92-0b3c-4529-bcc5-d62d30873ae4)  
+## result 
+**case**   
+V1 is Output of the Astable Multivibrator, V2 is Capacitor Voltage of Astable Multivibrator, V3 is Output of Differentiator, V4 is Capacitor Voltage of Monostable Multivibrator, Vout is Output of Monostable Multivibrator pulse width is 0.5ms
+
+![image](https://github.com/user-attachments/assets/85cb6c32-7a69-49a5-99b6-f2844ec14a54)  
+
+
+
+
+
 
 
 ## Conclusion
